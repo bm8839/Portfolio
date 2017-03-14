@@ -1,0 +1,13 @@
+h1 {
+    font-family: 'Old Standard TT', serif;
+    color: blue;
+}
+
+h2 {
+    color: red;
+    text-decoration: underline;
+}
+
+hr {
+    border-width: 3px;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+    <script src="./js/jquery-3.1.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+<body>
+  <div class="container">
+    <header class="row">
+      <div class="col-md-6">
+        <img src="./images/u.jpg" alt="Udacity logo">
+      </div>
+      <div class="col-md-6 text-right text-uppercase">
+        <h1>William L. Mitchell</h1>
+        <h3>Full Stack Developer</h3>
+      </div>
+    </header>
+    <div class="row">
+      <div class="col-md-12">
+        <hr>
+      </div>
+    </div>
+    <section id="main" class="row">
+      <article id="main-picture" class="col-md-12">
+        <img src="./images/project.jpg" class="img-responsive" alt="big bold word Project">
+      </article>
+    </section>
+    <div class="row">
+      <div class="col-md-12">
+        <h2>Featured Work</h2>
+      </div>
+    </div>
+    <section id="projects" class="row text-center">
+      <article id="movie-website" class="col-md-4">
+        <img class="img-responsive" src="./images/screenvision_555x312.jpg" alt="front entrance of a movie theater" data-toggle="modal" data-target="#movie_website">
+        <h3 class="text-uppercase">Favorite Movies</h3>
+        <p><a href="https://github.com/bm8839/Movie_Trailer_Website">Link to project</a></p>
+      </article>
+      <article id="tournament" class="col-md-4">
+        <img src="./images/swisssolid_555x312.jpg" class="img-responsive" alt="red cross" data-toggle="modal" data-target="#tournament1">
+        <h3 class="text-uppercase">Swiss Tournament</h3>
+        <p><a href="https://github.com/bm8839/Swiss_Tournament">Link to project</a></p>
+      </article>
+      <article id="fill-in-the-blank" class="col-md-4">
+        <img src="./images/fillintheblank_555x312.jpg" class="img-responsive" alt="phrase fillintheblank with letters missing" data-toggle="modal" data-target="#fillintheblank">
+        <h3 class="text-uppercase">Fill In The Blank</h3>
+        <p><a href="https://github.com/bm8839/Fill-In-The-Blanks">Link to project</a></p>
+      </article>
+    </section>
+  </div>
+
+<!-- Modal 1 -->
+  <div class="modal fade" id="movie_website" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">Favorite Movies Website</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="images/screenvision_100x56.jpg" alt="front entrance of a movie theater">
+          <p>Created a static webpage listing box art imagery of several movies and a few details about each movie. Clicking on the poster will play the movie trailer.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Modal 2 -->
+  <div class="modal fade" id="tournament1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel2">Swiss Tournament</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="images/swisssolid_100x56.jpg" alt="red cross">
+          <p>Designed and created a PostgreSQL database to keep track of players and matches in a Swiss-style tournament. Wrote Python modules to query the database and display the results.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Modal 3 -->
+  <div class="modal fade" id="fillintheblank" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel3">Fill In The Blank</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="images/fillintheblank_100x64.jpg" alt="phrase fillintheblank with letters missing">
+          <p>Used Python coding to build a fill-in-the-blank style quiz.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
